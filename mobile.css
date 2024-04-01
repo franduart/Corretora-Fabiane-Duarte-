@@ -1,0 +1,263 @@
+@import url(global.css);
+
+
+@media (max-width:900px) {
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        gap: 2rem;
+        min-height: 80vh;
+        max-width: 90vw;
+       
+       }
+       .video h1{
+        margin-top: -50%;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+       
+}
+@media (max-width:1180px) {
+    .apresentacao article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0 2rem;
+        min-width: 100%;
+    }
+    .apresentacao-1 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        min-width: 90vw;
+    }
+}
+
+@media (max-width:800px) {
+
+    
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    margin-top: 2.5rem;
+    margin-left: 27%;
+  }
+    .btn{
+        border-radius: 10px;
+    }
+      .btn:hover{
+        background-color: #949292;
+      }
+
+    .header .menu-nav {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        min-width: 90%;
+      
+       
+      }
+
+      .video h1{
+        margin-top: -58%;
+        text-align: center;
+        font-size: 2.2rem;
+        color: #fff;
+        width: 100%;
+        padding: 0 1rem;
+     
+     }
+     .video p{
+         color: #fff;
+         font-size: 1.2rem;
+         margin: -2.8rem 0;
+     
+      }
+     .video {
+        margin-bottom: 35%;
+        border: none;
+     
+     }
+  
+
+
+    .container .btn-whats a{
+        background-color: #fff;
+        position: fixed;
+        left: 95%;
+        transform: translate(-95%, 0%);
+        bottom: 1.5rem;  
+        z-index: 1;
+        width: 20%;
+        padding: 5px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    .container .btn-whats:hover{
+        background-color: #fff;
+        color: #6f8137;
+    }
+    .apresentacao article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 0 auto;
+        padding: 0 2rem;
+        min-width: 100%;
+    }
+    .apresentacao article a:hover{
+        background-color: #777775;
+    }
+    .apresentacao-1 {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        min-width: 90vw;
+    }
+    .apresentacao-1 a{
+        display: block;
+        flex-direction: column;
+        align-items: start;
+        justify-content: left;
+        text-decoration: none;
+        background-color: #312f2f;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        width: 70vw;  
+        text-transform: uppercase; 
+        
+    }
+    .apresentacao-1 h1{
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        text-align: left;
+        color: #000;
+        padding: 1rem;
+        border-radius: 5px;
+        font-size: 1.6rem;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+    .apresentacao-1 span{
+        color: #000000;
+       
+    }
+    .apresentacao article img{
+        max-width: 100%;
+    }
+    .apresentacao{
+      text-align: left;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        gap: 2rem;
+        min-height: 80vh;
+        max-width: 90vw;
+       }
+
+       .container img{
+        display: flex;
+        max-width: 90%;
+        height: 50%;
+        border-radius: 5px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    
+
+
+#contato .conteudos{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#contato p{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+footer{
+    background-color: #312f2f;
+    color: #fff;
+    margin-top: 2rem;
+}
+.footer_section h3{
+    margin-top: 1.5rem;
+}
+.btn-imoveis{
+    font-size: 1.5rem;
+    margin-bottom: 30%;
+}
+.center {
+    margin-top: -70%;
+}
+
+.video-slide video{
+    width: 100%;
+}
+.video-city{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    align-items: center;
+    margin: 0 1rem;
+}
+.video-mobi{
+    width: 85vw;
+}
+.city-ubatuba h2{
+    font-size: 1.7rem;
+}
+}

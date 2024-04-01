@@ -1,0 +1,414 @@
+@import url(mobile.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.center a{
+    background-color: green;
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+.center a:hover{
+    background-color: rgb(59, 185, 59);
+
+    
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+.container .header img{
+    max-width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.apresentacao{
+    margin: 2rem 0;
+}
+
+.apresentacao article{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+    max-width: 70%;
+}
+.apresentacao-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 10%;
+}
+.apresentacao-1 a{
+    text-decoration: none;
+    background-color: #312f2f;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+
+.apresentacao article img{
+    width: 400px;
+}
+.btn-imoveis{
+   text-decoration: none;
+   color: #fff;
+   background-color: green;
+   padding: 10px;
+   font-size: 2rem;
+   border-radius: 10px;
+   text-align: center;
+   margin-top: 2rem;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   text-transform: uppercase;
+}
+.btn-imoveis:hover{
+    background-color: rgb(20, 158, 20);
+}
+
+
+.container .btn-whats a{
+    position: fixed;
+    left: 95%;
+    transform: translate(-95%, 0%);
+    bottom: 2rem;  
+    z-index: 1;
+    padding: 8px;
+    color: rgb(14, 129, 14);
+    background-color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .btn-whats:hover{
+    padding: 8px;
+    color: rgb(41, 170, 41);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.container p{
+    padding: 3rem 0;
+    color: #202020;
+}
+
+#home{
+    margin-top: 10%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+    background-color: #dddde4;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+#home img{
+   width: 100%;
+   overflow: hidden;
+}
+
+#home p{
+    margin: 0 auto;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+
+
+
+.container img{
+    max-width: 90%;
+    height: 50%;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+   
+}
+.Competências li{
+    padding-bottom: 2rem;
+    max-width: 80%;
+    justify-content: center;
+    justify-items: center;
+    align-items: left;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#about{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ justify-items: center;
+ align-items: center;
+ margin: 2rem auto;
+ text-align: center;
+ gap: 2rem;
+
+
+}
+
+.about-me picture img{
+    border-radius: 5px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.video h1{
+   margin-top: -40%;
+   text-align: center;
+   font-size: 4rem;
+   color: #fff;
+   font-weight: bold;
+
+}
+.video p{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+
+ }
+.video {
+    margin-bottom: 10%;
+   border: none;
+
+}
+
+#about p{
+    width: 80%;
+    padding: 2rem 0;
+    text-align: center;
+    color: #202020;
+    align-items: center;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #312f2f;
+    color: #fff;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    text-decoration: none;
+    padding: 1rem 0;
+}
+footer a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+footer .footer_section, p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+
+.footer_section a svg{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.footer_section a svg:hover{
+   color: #fff;
+}
+.info{
+    border-top: 1px solid #000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    gap: 5px;
+}
+.icon-contato{
+    display: flex;
+    align-items: center;
+    margin-left: 15%;
+}
+.conteudos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-bottom: 1rem;
+}
+.conteudos a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.conteudos a:hover{
+   color: #fff;
+}
+
+.cadastrar-imoveis{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+ .cadastrar-imoveis form{
+    display: flex;
+    flex-direction: column;
+ }
+ .center {
+    margin-top: -10%;
+}
+.video-slide video{
+    width: 100vw;
+    height: 80vh;
+    z-index: 0;
+}
+
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    margin-top: 2.5rem;
+    margin-left: 42%;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.city-ubatuba{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.city-ubatuba  div iframe{
+    width: 300;
+}
+
+.video-title{
+    color: #0072b1;
+}
